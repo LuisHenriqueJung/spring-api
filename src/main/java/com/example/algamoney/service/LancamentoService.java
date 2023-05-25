@@ -34,10 +34,11 @@ public class LancamentoService {
 	}
 	public Lancamento atualizarLancamento(Lancamento lancamento)  {
 		Lancamento lancamentoSalvo = buscarLancamentoSalvo(lancamento.getCodigo());
-		if(!lancamentoSalvo.getPessoa().equals(lancamento.getPessoa())) {
+		/*if(!lancamentoSalvo.getPessoa().equals(lancamento.getPessoa())) {
 			throw new EmptyResultDataAccessException(1);
 		} 
-		
+		*/
+		//TODO:Verificar a possibilidade de trocar a pessoa do lancamento
 		BeanUtils.copyProperties(lancamento, lancamentoSalvo, "codigo");
 		
 		return lancamentoRepository.save(lancamentoSalvo);
