@@ -5,6 +5,7 @@ com\example\algamoney\service\exception\PessoaInexistenteOuInativaException.clas
 com\example\algamoney\resource\CategoriaResource.class
 META-INF\spring-configuration-metadata.json
 com\example\algamoney\config\property\AlgamoneyProperty$Seguranca.class
+com\example\algamoney\DTO\LancamentoEstatisticaPessoa.class
 com\example\algamoney\model\Usuario.class
 com\example\algamoney\repository\filter\PessoaFilter.class
 com\example\algamoney\model\Endereco.class
@@ -18,15 +19,18 @@ com\example\algamoney\model\TipoLancamento.class
 com\example\algamoney\AlgamoneyApiApplication.class
 com\example\algamoney\model\Endereco_.class
 com\example\algamoney\config\BasicSecurityConfig.class
+com\example\algamoney\repository\pessoa\PessoaRepositoryImpl.class
 com\example\algamoney\token\RefreshTokenCookiePreProcessorFilter$MyServletRequestWrapper.class
 com\example\algamoney\token\RefreshTokenCookiePreProcessorFilter.class
 com\example\algamoney\config\AuthorizationServerConfig.class
 com\example\algamoney\model\Lancamento.class
 com\example\algamoney\resource\LancamentoResource.class
+com\example\algamoney\DTO\LancamentoEstatisticaCategoriaMes.class
 com\example\algamoney\token\RefreshTokenPostProcessor.class
 com\example\algamoney\repository\filter\LancamentoFilter.class
 com\example\algamoney\config\ResourceServerConfig.class
 com\example\algamoney\model\Usuario_.class
+com\example\algamoney\DTO\LancamentoEstatisticaCategoriaDia.class
 com\example\algamoney\model\Permissao.class
 com\example\algamoney\service\PessoaService.class
 com\example\algamoney\resource\PessoaResource.class
@@ -37,6 +41,7 @@ com\example\algamoney\resource\TokenResource.class
 com\example\algamoney\security\AppUserDetailsService.class
 com\example\algamoney\config\property\AlgamoneyProperty.class
 com\example\algamoney\repository\LancamentoRepository.class
+com\example\algamoney\repository\lancamento\LancamentoRepositoryImpl.class
 com\example\algamoney\repository\lancamento\LancamentoRepositoryQuery.class
 com\example\algamoney\cors\CorsFilter.class
 com\example\algamoney\repository\PessoaRepository.class

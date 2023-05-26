@@ -12,6 +12,7 @@ C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamon
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\filter\PessoaFilter.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\pessoa\PessoaRepositoryImpl.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\security\AppUserDetailsService.java
+C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\DTO\LancamentoEstatisticaCategoriaMes.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\event\RecursoCriadoEvent.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\CategoriaRepository.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\model\TipoLancamento.java
@@ -21,6 +22,7 @@ C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamon
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\model\Categoria.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\LancamentoRepository.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\exceptionHandler\AlgamoneyExceptionHandler.java
+C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\DTO\LancamentoEstatisticaCategoriaDia.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\cors\CorsFilter.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\pessoa\PessoaRepositoryQuery.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\lancamento\LancamentoRepositoryQuery.java
@@ -32,6 +34,7 @@ C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamon
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\lancamento\LancamentoRepositoryImpl.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\repository\UsuarioRepository.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\config\ResourceServerConfig.java
+C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\DTO\LancamentoEstatisticaPessoa.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\AlgamoneyApiApplication.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\resource\CategoriaResource.java
 C:\Users\ejun1074\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\algamoney-api\src\main\java\com\example\algamoney\service\LancamentoService.java

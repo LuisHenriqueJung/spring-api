@@ -1,5 +1,6 @@
 package com.example.algamoney.resource;
 
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -7,6 +8,7 @@ import java.util.Optional;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
+import com.example.algamoney.DTO.LancamentoEstatisticaCategoriaDia;
 import com.example.algamoney.event.RecursoCriadoEvent;
 import com.example.algamoney.exceptionHandler.AlgamoneyExceptionHandler.Erro;
 import com.example.algamoney.model.Lancamento;
@@ -88,7 +90,11 @@ public class LancamentoResource {
 		lancamentoRepository.deleteById(codigo);
 	}
 	
-	
+	@GetMapping("/estatisticas/por-dia")
+	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_LANCAMENTO') and hasAuthority('SCOPE_read')")
+	public List<LancamentoEstatisticaCategoriaDia> lancamentosPorDia() {
+		return this.lancamentoRepository.lancamentosPorDia(LocalDate.now());
+	}
 	
 	@ExceptionHandler({ PessoaInexistenteOuInativaException.class })
 	public ResponseEntity<Object> handlePessoaInexistenteOuInativaException(PessoaInexistenteOuInativaException ex) {
